@@ -28,7 +28,7 @@ app.get("/books", (req, res) => {
     });
   }
 
-  res.json(books).just(results);
+  res.json(results);
 });
 
 app.listen(8000, () => {
